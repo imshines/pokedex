@@ -41,7 +41,8 @@ function Home(props) {
 
     return (
         <div className='home-container'>
-            <div>
+            <div style={{ textAlign: 'center' }}>
+                <h2>🔍 Search for a Pokemon</h2>
                 <input type='text' onChange={onChangeHandler} value={input} />
                 <button onClick={submitHandler}>Search</button>
                 <p>Entered input : {input}</p>
